@@ -1,0 +1,4 @@
+Part 1 — Echo
+• Write a C program that
+• Asks for an integer input
+• Prints that input back to the use
