@@ -36,7 +36,7 @@ int main()
         m_avg[i] = sum / WINDOW_LENGTH;       
     }
     for (int i = 0; i < ARRAY_LENGTH; i++)
-        printf("Week %d: %.3lf %.3lf %.3lf\r\n", i + 1, data[i], c_avg[i], m_avg[i]);
+        printf("Week %d: %.3lf  %.3lf  %.3lf\n", i + 1, data[i], c_avg[i], m_avg[i]);
     
     return 0;
 }

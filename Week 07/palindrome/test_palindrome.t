@@ -3,7 +3,7 @@
     blocker: true
 
 - build:
-    run: gcc -std=c99 -Werror palindrome.c -o palindrome        # timeout: 2
+    run: gcc -std=c99 -Werror palindrome.c -o palindrome -lm       # timeout: 2
     blocker: true
 
 - case1:

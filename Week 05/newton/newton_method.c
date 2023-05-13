@@ -27,5 +27,5 @@ int main()
         x = x - y / m;
         //printf("point: (%.2f %.2f)\n", x, y);
     }
-    printf("RootL %0.2f\n", x);
+    printf("Root: %0.2f\n", x);
 }

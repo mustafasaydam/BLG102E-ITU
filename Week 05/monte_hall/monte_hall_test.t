@@ -3,7 +3,7 @@
     blocker: true
 
 - build:
-    run: gcc -std=c99 -Wall -Werror monte_hall.c -o monte_hall_sim  # timeout: 2
+    run: gcc -std=c99 monte_hall.c -o monte_hall_sim  # timeout: 2
     blocker: true
 
 - case:

@@ -31,14 +31,14 @@ int main()
 
     while (1)
     {
-        printf("Enter a number or \\(-1\\) to quit: ");
+        printf("Enter a number or (-1) to quit: ");
         scanf("%d", &num);
         if (num == -1)
             return 0;
         printf("%d\n", digitsPlace(1234, 1));
         if(isPalindrome(num))
-            printf("This number is a palindrome.\r\n");
+            printf("This number is a palindrome.\n");
         else
-            printf("This number is not a palindrome.\r\n");
+            printf("This number is not a palindrome.\n");
     }
 }

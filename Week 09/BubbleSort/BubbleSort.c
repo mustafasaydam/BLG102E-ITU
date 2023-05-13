@@ -44,8 +44,8 @@ int main()
     for (int i = 0; i < SIZE; i++)
         printf(" %d", grades[i]);
     printf("\n");
-    bubleSort(grades, SIZE, false); //Desending
-    printf("Sorted Array(Desending):");
+    bubleSort(grades, SIZE, false); //Descending
+    printf("Sorted Array(Descending):");
     for (int i = 0; i < SIZE; i++)
         printf(" %d", grades[i]);
     printf("\n");

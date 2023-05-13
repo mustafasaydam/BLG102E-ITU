@@ -15,5 +15,5 @@ int main()
     dis = b * b - 4 * a * c;
     x1 = (-b + sqrt(dis)) / (2 * a);
     x2 = (-b - sqrt(dis)) / (2 * a);
-    printf("Roots: x1: %.2f, x2: %.2f\r\n", x1, x2);
+    printf("Roots: x1: %.2f, x2: %.2f\n", x1, x2);
 }

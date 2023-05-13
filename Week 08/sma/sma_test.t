@@ -3,7 +3,7 @@
     blocker: true
 
 - build:
-    run:   # timeout: 2
+    run: gcc -std=c99 -Wall -Werror moving_average.c -o sma  # timeout: 2
     blocker: true
 
 - case1:

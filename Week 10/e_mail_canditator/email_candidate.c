@@ -88,9 +88,9 @@ int main() {
 
     emailSuggestions(name, surname, year, suggestions);
 
-    printf("Email Candidate 1: %s\r\n", suggestions[0]);
-    printf("Email Candidate 2: %s\r\n", suggestions[1]);
-    printf("Email Candidate 3: %s\r\n", suggestions[2]);
+    printf("Email Candidate 1: %s\n", suggestions[0]);
+    printf("Email Candidate 2: %s\n", suggestions[1]);
+    printf("Email Candidate 3: %s\n", suggestions[2]);
 
     return 0;
 }

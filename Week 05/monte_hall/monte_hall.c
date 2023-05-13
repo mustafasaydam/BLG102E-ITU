@@ -79,6 +79,6 @@ int main()
     
     double win_ratio_1 = (double)strategy1 / N_ITERATIONS;
     double win_ratio_2 = (double)strategy2 / N_ITERATIONS;
-    printf("win ratio for strategy 1: %.3lf\r\n", win_ratio_1);
-    printf("win ratio for strategy 1: %.3lf\r\n", win_ratio_2);
+    printf("win ratio for strategy 1: %.3lf\n", win_ratio_1);
+    printf("win ratio for strategy 2: %.3lf\n", win_ratio_2);
 }
