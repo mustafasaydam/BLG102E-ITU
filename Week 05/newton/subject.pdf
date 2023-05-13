@@ -1,0 +1,10 @@
+Write a C program that
+• Gets a function ax^2+bx+c
+• Calculates derivative on x = k
+• Calculates the root iteratively
+Hints
+• Line : (y2-y1) = m(x2-x1)
+• Use 2 close points to calculate the
+  derivative ((x+e) and (x-e))
+• You find the root when the error is very
+  small (Root x is where y = O)

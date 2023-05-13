@@ -1,0 +1,8 @@
+        Fahrenheit to Celsius Conversion
+• To convert Fahrenheit to Celsius, we use the formula:
+            Tcelcius = 5/9 x (Tfahrenheit - 32)
+
+Write a C program that
+    • Asks for a temperature value in Fahrenheit
+    • Converts the entered temperature value to Celsius
+    • Prints out the temperature in Celsius

@@ -1,0 +1,7 @@
+Bubble Sort
+
+Write a program that has
+• A bubble sort function that
+    — Gets any int array
+    — Gets sorting type(ascending,descending)
+    — Sorts the array using bubble sort
