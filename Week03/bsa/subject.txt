@@ -1,0 +1,12 @@
+        Find Body Surface Area (BSA) with Boyd Formula
+•Body Surface Area (BSA) measures the total surface area of the body and is
+ used to calculate drug dosages.
+
+•BSA can be calculated with Boyd formula as follows:
+    BSA(m2) = 0.0003207 x Height^0.3 x Weight ^ (0.7285 - (0.0188 x log(10)Weight))
+  where Height is in cm and Weight is in grams
+
+Write a C program that
+    • Asks for height (cm) and weight (gr)
+    • Calculates BSA using Boyd formula
+    • Prints out the BSA

@@ -1,0 +1,10 @@
+Estimating the value of Pl Using the Monte
+Carlo Method
+• Write a C program that uses following funtions to
+estimate the value of (pi) using Monte Carlo Method
+• double getRandomNumber(double lower_limit, double upper_limit)
+• Returns a pseudo random real number between the
+lower_limit and upper_limit
+double calculatePi(int max_iteration)
+• Returns estimated value of using max_iteration random
+points

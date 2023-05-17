@@ -1,0 +1,16 @@
+            Find Roots of a Second Degree Polynomial
+
+• A second degree polynomial has the form:
+                ax^2 + bx + c
+
+• In order to solve it, we first need to find discriminant
+                discriminant = b^2 — 4ac
+
+• Then, the roots can be found as
+                x1 = ((-b) + sqrt(discriminant) ) / (2a)
+                x2 = ((-b) - sqrt(discriminant) ) / (2a)
+
+Write a C program that
+    • Asks for a, b, and c coefficients
+    • Calculates discriminant and uses it to find the roots (x1 and x2)
+    • Prints out the roots x1 and x2

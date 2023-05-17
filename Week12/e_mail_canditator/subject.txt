@@ -1,0 +1,14 @@
+    Email Candidate
+• Write an email address suggestion program.
+• This program suggests 3 candidate email addresses using
+• Name: Feridun, Surname: Hurel, Year: 1951
+    • 1. Initial of name + surname + last 2 digits of year (fhure51@itu.edu.tr)
+    • 2. First two from name + first two from surname + randomnumber(4 digit)
+            (fehu8245@itu.edu.tr)
+    • 3. Surname + Name + Year (hurelferidun1951@itu.edu.tr)
+• Implement following functions
+    • Function for suggestion (will be called from main)
+    • String functions (strlenght, strcopy, strconcatenate, substring, strreverse)
+    • Utility functions (swap,inttostring)
+• Remember to use pointers
+• Both return the result and write it into string using pass by reference

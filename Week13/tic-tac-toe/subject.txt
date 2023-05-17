@@ -1,0 +1,51 @@
+Question:
+Write a C program that takes a 2D character array representing a tic-tac-toe board as input and
+determines the winner. The tic-tac-toe board is represented by a 3x3 character array, where
+each element can be 'X', or ' The program should output the winner as 'X' or 'O', or 'Tie' if
+the game is a draw. The program should also handle invalid inputs and display an appropriate
+error message.
+
+Example input/output:
+
+Input:
+OXO
+OOX
+XOX
+
+Output:
+Tie
+
+Input:
+XOX
+OXO
+XOX
+
+Output:
+X
+
+Input:
+XXO
+OXX
+OOO
+
+Output:
+O
+
+Input:
+XOX
+XOO
+XXO
+
+Output:
+X
+
+Input:
+XOX
+OX
+XOO
+
+Output:
+Invalid input. The board should be a 3x3 array.
+
+Your task is to implement the program in C, considering different edge cases and validating the
+input board. Good luck!
