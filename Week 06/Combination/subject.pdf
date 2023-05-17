@@ -1,5 +1,0 @@
-(1) Combination
-• Write a function(functions) to calculate combination
-• C(n, r) = n! / (r! * (n-r)!)
-• Design your code considering performance and functionality
-• Test with inputs (i.e. n=9, r=3)
