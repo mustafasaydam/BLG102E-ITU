@@ -1,0 +1,25 @@
+(1) About argc and argv
+• We can also pass information from command line
+• int main(int argc, char* argv[]) // (int argc, char* * argv)
+• argc: argumant count
+• argv: argumant vector // string array
+• Example:
+    • gcc -o myprog myprog.c //yes gcc is also a program
+    • argc: 4
+    • argv[O]: gcc
+    • argv[1]: -o
+    • argv[2]: myprog
+    • argv[3]: myprog.c
+
+(2) Read-Write Practice
+• Write a program that
+    • Has a struct to get the content of the file
+    • read from text file function, Reads from students_src.txt
+    • write_into_binary_file Write into students_bin
+    • read_from_binary_file Read from students_bin
+    • write into text file Write into students_dst.txt
+    • get the filenames from the command line
+    • Check if you can open the file, if not terminate the program
+    • Use fread, fwrite, fprintf, fscanf (alternativly sscanf)
+
+    • Data consists: NAME, ID, 3 EXAMS, 3 HWS, LETTER GRADE
